@@ -1,0 +1,67 @@
+body {
+	background:
+	linear-gradient(
+		limegreen,
+		transparent
+	),
+	linear-gradient(
+		90deg,
+		skyblue,
+		transparent
+	),
+	linear-gradient(
+		-90deg,
+		coral,
+		transparent
+	);
+	
+background-blend-mode: screen;;
+}
+
+h1{
+	text-align: center;
+	color: #000000;
+	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#smallLogo {
+	border-radius:50%;
+	height: 35px;
+	width: 35px;
+	float: left;
+}
+
+.channelRow {
+	border-width: 3px;
+    border-color: white;
+    border-style: solid;
+	max-width: 500px;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+}
+
+.channelRow:hover {
+	border-color: #337ab7;
+}
+
+.name {
+	font-family: futura;
+    font-size: 24px;
+    color: #fff;
+}
+
+.greenOnline {
+	background-color: #90EE90;
+}
+
+.redOffline {
+	background-color: #EA7E7E;
+}
+
+.status {
+	font-style: italic;
+}
+
+#results {
+	padding-bottom: 50px;
+}
